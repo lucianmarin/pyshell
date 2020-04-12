@@ -6,6 +6,12 @@ pyshell is useful on remote environments were your favorite shell can't be insta
 
 pyshell was worked on and commited using pyshell and helper runargs.
 
+## Functions
+
+`cd()`, `cp()`, `mv()`, `pwd()`, `run()` are available in `shell.py`.
+
+Some helping run arguments are available in `runargs.py`. You can create a local `runargs.py` where you define your command line shortcuts.
+
 ## Usage
 
 ```
@@ -56,7 +62,3 @@ In [21]: run(gc('initial version'))
  create mode 100644 runargs.py
  create mode 100644 shell.py
 ```
-
-## Functions
-
-cd, cp, mv, pwd, run are available in shell.py
