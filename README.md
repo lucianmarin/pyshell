@@ -6,6 +6,13 @@ pyshell is useful on remote environments were your favorite shell can't be insta
 
 pyshell was worked on and commited using pyshell and helper runargs.
 
+## Install
+
+```
+pip install ipython
+cp shell.py ~/.ipython/profile_default/startup/start.py
+```
+
 ## Functions
 
 `cd()`, `cp()`, `mv()`, `pwd()`, `run()` are available in `shell.py`.
